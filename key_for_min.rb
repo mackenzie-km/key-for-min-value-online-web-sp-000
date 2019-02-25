@@ -5,7 +5,7 @@ holder_array = []
 name_hash.each do |key, value|
 holder_array << value
 end 
-holder_array.each do |a, b|
+holder_array.collect do |a, b|
 if a == nil || b == nil
   nil 
 elsif a < b 
