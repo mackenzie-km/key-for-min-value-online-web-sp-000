@@ -6,7 +6,7 @@ name_hash.each do |key, value|
 holder_array << value
 end 
 holder_array.each do |a, b|
-if a.include?(nil) || b.include?(nil)
+if a == nil || b == nil
   nil 
 a < b 
   holder_array.delete(b) 
