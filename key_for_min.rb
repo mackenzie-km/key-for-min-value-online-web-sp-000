@@ -13,7 +13,7 @@ elsif holder_array[i] > holder_array[i+1]
   holder_array.delete(holder_array[i]) 
 end 
 end 
-
+require "pry"
 name_hash.key(holder_array)
-
+binding.pry
 end 
