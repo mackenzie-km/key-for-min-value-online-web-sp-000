@@ -7,7 +7,7 @@ holder_array << value
 end 
 holder_array.each do |a, b|
 if a <=> b == -1
-  a 
+  holder_arraydelete_at(b)
 
 end 
 end
