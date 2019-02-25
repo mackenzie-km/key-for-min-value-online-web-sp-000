@@ -1,5 +1,6 @@
 
 def key_for_min_value(name_hash)
+  i = 0
 holder_array = []
 name_hash.each do |key, value|
 holder_array << value
