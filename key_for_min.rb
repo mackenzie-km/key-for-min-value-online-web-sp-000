@@ -11,6 +11,7 @@ if a <=> b == -1
 elsif b <=> a == -1
   holder_array.delete(a)
 end 
+end 
 holder_array
 end 
 end
