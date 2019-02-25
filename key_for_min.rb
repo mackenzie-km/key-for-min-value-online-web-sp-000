@@ -9,7 +9,7 @@ holder_array.each_with_index do |index, value|
 if index-1 == nil || index == nil
   nil 
 elsif holder_array[index-1] < holder_array[index]
-  holder_array.delete(index) 
+  holder_array.delete(holder_array[index]) 
 elsif b < a 
   holder_array.delete(a)
 end 
