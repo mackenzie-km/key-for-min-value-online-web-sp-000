@@ -5,7 +5,7 @@ holder_array = []
 name_hash.each do |key, value|
 holder_array << value
 end 
-holder_array.each do |value|
-  value <=> 
+holder_array.each do |a, b|
+  a <=> b
 end 
 end
