@@ -13,6 +13,5 @@ elsif holder_array[i] > holder_array[i+1]
   holder_array.delete(holder_array[i]) 
 end 
 end 
-answer = name_hash.key(holder_array)
-return answer 
+name_hash.key(holder_array[0])
 end 
