@@ -11,6 +11,5 @@ array_sort.collect do |a, b|
   a <=> b
 end 
 lowest_key = name_hash[array_sort[0]]
-end
 lowest_key
 end
