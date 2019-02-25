@@ -1,4 +1,3 @@
-require "pry"
 
 def key_for_min_value(name_hash)
 holder_array = []
@@ -15,5 +14,4 @@ elsif holder_array[index-1] > holder_array[index]
 end 
 end 
 holder_array
-binding.pry
 end 
