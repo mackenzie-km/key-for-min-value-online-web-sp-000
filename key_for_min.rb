@@ -6,7 +6,11 @@ def key_for_min_value(name_hash)
   array_sort = []
 name_hash.each do |key, value|
   array_sort << value
-lowest_key = key
+end 
+array_sort.collect do |a, b|
+  a <=> b
+end 
+lowest_key = name_hash[array_sort[0]]
 end
 lowest_key
 end
