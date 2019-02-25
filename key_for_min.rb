@@ -7,7 +7,7 @@ name_hash.each do |key, value|
   array_sort << value
 end 
 array_sort.collect do |a, b|
-  a <=> b
+  b <=> a
 end 
 lowest_key = name_hash[array_sort[0]]
 binding.pry
