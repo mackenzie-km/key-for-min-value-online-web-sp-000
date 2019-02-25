@@ -6,10 +6,8 @@ name_hash.each do |key, value|
 holder_array << value
 end 
 holder_array.each do |a, b|
-if a <=> b == -1
-  holder_array.delete(b)
-elsif b <=> a == -1
-  holder_array.delete(a)
+if a <=> b 
+  holder_array.delete(b) 
 end 
 end 
 holder_array
