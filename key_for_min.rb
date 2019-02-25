@@ -8,7 +8,7 @@ end
 holder_array.each do |a, b|
 if a == nil || b == nil
   nil 
-a < b 
+elsif a < b 
   holder_array.delete(b) 
 elsif b < a 
   holder_array.delete(a)
