@@ -11,6 +11,6 @@ if a <=> b
 end 
 end 
 holder_array
-binding,pry
+binding.pry
 end 
 end
