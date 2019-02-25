@@ -7,7 +7,7 @@ holder_array << value
 end 
 
 while holder_array.length > 1 do
-if holder_array[i].empty?
+if holder_array[i].empty? == TRUE
   holder_array = nil 
 elsif holder_array[i] < holder_array[i+1]
   holder_array.delete(holder_array[i+1]) 
