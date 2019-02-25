@@ -10,6 +10,8 @@ if a < b
   holder_array.delete(b) 
 elsif b < a 
   holder_array.delete(a)
+else
+  nil 
 end 
 end 
 holder_array
